@@ -1,0 +1,73 @@
+<!-- style.css -->
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fc;
+  color: #333;
+}
+
+header {
+  background: #4b8df8;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+}
+
+.cta {
+  display: inline-block;
+  background: #4b8df8;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* privacy.html */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MailMind Privacy Policy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p><strong>Effective Date:</strong> June 21, 2025</p>
+    <p>MailMind is a Chrome Extension that helps users improve their email productivity by summarizing Gmail threads and generating AI-assisted reply suggestions. We take your privacy seriously and are committed to handling your data responsibly.</p>
+
+    <h2>1. Data We Access</h2>
+    <p>MailMind accesses the content of your Gmail messages only while you are using the extension. This access is required to display email threads and generate summaries or replies using AI.</p>
+
+    <h2>2. Data We Do NOT Collect or Store</h2>
+    <ul>
+      <li>We do not store or permanently collect any of your emails or personal data.</li>
+      <li>We do not sell or share your data with third parties.</li>
+    </ul>
+
+    <h2>3. Use of External APIs</h2>
+    <p>MailMind may temporarily send email content to an AI API (e.g., OpenAI) only for the purpose of generating summaries and replies. These requests are not stored or retained by MailMind.</p>
+
+    <h2>4. Permissions</h2>
+    <p>MailMind requests access only to mail.google.com and the necessary data to perform its functions. We do not request unnecessary permissions.</p>
+
+    <h2>5. Your Consent</h2>
+    <p>By using MailMind, you consent to this privacy policy.</p>
+
+    <h2>6. Contact</h2>
+    <p>For questions, email us at: [your email address]</p>
+  </main>
+</body>
+</html>
